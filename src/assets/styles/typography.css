@@ -1,0 +1,112 @@
+:root {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+
+  --page-title-size: 2.125rem;
+  --page-title-height: 1.35;
+  --page-title-weight: 700;
+
+  --form-title-size: 1.5rem;
+  --form-title-height: 1.45;
+  --form-title-weight: 700;
+
+  --paragraph-size: 1.125rem;
+  --paragraph-height: 1.65;
+  --paragraph-weight: 400;
+
+  --button-size: 1.125rem;
+  --button-height: 1.2;
+  --button-weight: 700;
+
+  --label-size: 1.125rem;
+  --label-height: 1.2;
+  --label-weight: 500;
+
+  --input-size: 1.125rem;
+  --input-height: 1.2;
+  --input-weight: 400;
+
+  --progressbar-size: 1rem;
+  --progressbar-height: 1.1;
+  --progressbar-weight: 500;
+
+  --error-size: 0.8rem;
+  --error-height: 1;
+  --error-weight: 700;
+
+  /* colors */
+  --text-primary: #170F49;
+  --text-secondary: #6F6C90;
+  --ui-primary: #4A3AFF;
+  --ui-secondary: #EFF0F6;
+}
+
+.page-title {
+  font-size: var(--page-title-size);
+  line-height: var(--page-title-height);
+  font-weight: var(--page-title-weight);
+  color: var(--text-primary);
+}
+
+.form-title {
+  font-size: var(--form-title-size);
+  line-height: var(--form-title-height);
+  font-weight: var(--form-title-weight);
+  color: var(--text-primary);
+}
+
+.paragraph {
+  font-size: var(--paragraph-size);
+  line-height: var(--paragraph-height);
+  font-weight: var(--paragraph-weight);
+  color: var(--text-secondary);
+}
+
+.base-button {
+  font-size: var(--button-size);
+  line-height: var(--button-height);
+  font-weight: var(--button-weight);
+  color: #fff;
+}
+
+.base-button--transparent {
+  font-size: var(--input-size);
+  line-height: var(--input-height);
+  font-weight: var(--input-weight);
+  color: var(--ui-primary);
+}
+
+.form-item__label {
+  font-size: var(--label-size);
+  line-height: var(--label-height);
+  font-weight: var(--label-weight);
+  color: var(--text-primary);
+}
+
+.form-item__input, .form-item__input::placeholder {
+   font-size: var(--input-size);
+   line-height: var(--input-height);
+   font-weight: var(--input-weight);
+}
+
+.form-item__input {
+  color: var(--text-primary);
+}
+
+.form-item__input::placeholder {
+  color: var(--text-secondary);
+}
+
+.progress-step {
+  font-size: var(--progress-size);
+  line-height: var(--progress-height);
+  font-weight: var(--progress-weight);
+  color: var(--text-secondary);
+}
+
+.error-message {
+  font-size: var(--error-size);
+  line-height: var(--error-height);
+  font-weight: var(--error-weight);
+  color: #db0000;
+}

@@ -1,0 +1,39 @@
+/* form step layout */
+.form-title {
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  margin-bottom: 2.5rem;
+}
+
+.form-items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(17.75rem, 284px));
+  grid-auto-rows: minmax(120px, auto);
+  gap: 1.75rem 1.25rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+@media (max-width: $large-screen-size) {
+  .form-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: $medium-screen-size) {
+  .form-items {
+    gap: 1rem;
+  }
+}
+
+@media(max-width: $small-screen-size) {
+  .form-items {
+    grid-auto-rows: auto;
+  }
+  .step-description {
+    margin-bottom: 1.5rem;
+  }
+}
+
