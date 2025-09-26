@@ -9,7 +9,6 @@ import OtherIcon from '@/assets/images/services-icons/other-icon.svg?component'
 const emit = defineEmits(['formValidityUpdate'])
 
 const formDataModel = defineModel()
-// model: []
 
 const checkboxes = [
   {

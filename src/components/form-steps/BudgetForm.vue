@@ -5,7 +5,6 @@ import RadioButton from '../ui/RadioButton.vue';
 const emit = defineEmits(['formValidityUpdate'])
 
 const dataFormModel = defineModel()
-// model: String
 
 const radioButtons = reactive([
   {

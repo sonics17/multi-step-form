@@ -135,7 +135,7 @@ onMounted(async () => {
 
 @media(max-width: $medium-screen-size) {
   .progress-bar {
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     gap: 0rem;
   }
 
@@ -147,12 +147,6 @@ onMounted(async () => {
     box-sizing: content-box;
     margin: 0 -4px;
     z-index: -100;
-  }
-}
-
-@media(max-width: $medium-screen-size) {
-  .progress-bar {
-    padding: 1rem 0rem;
   }
 }
 </style>

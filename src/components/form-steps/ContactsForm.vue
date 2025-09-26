@@ -9,12 +9,6 @@ import CompanyIcon from '@/assets/images/contacts-icons/company-icon.svg?compone
 const emit = defineEmits(['formValidityUpdate'])
 
 const formDataModel = defineModel()
-// model: {
-//   name: '',
-//   email: '',
-//   phone: '',
-//   company: ''
-// }
 
 const inputFields = reactive([
   {
